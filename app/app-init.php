@@ -48,8 +48,8 @@
     //  1) add an entry to this array (exploit url matches exploit html template name!)
     //  2) add .html page to exploits templates folder to demonstrate the exploit
     $UHACKIT_EXPLOITS = array (
-        SQL_INJECTION  => array('path' => SQL_INJECTION,  'name' => 'SQL injection'),
-        XSS_ATTACK     => array('path' => XSS_ATTACK,     'name' => 'XSS (JS injection)'),
+        SQL_INJECTION  => array('path' => SQL_INJECTION,  'name' => 'SQL Injection'),
+        XSS_ATTACK     => array('path' => XSS_ATTACK,     'name' => 'XSS (JS Injection)'),
         SESSION_HIJACK => array('path' => SESSION_HIJACK, 'name' => 'Session Hijacking'),
         'unencrypted'  => array('path' => '#', 'name' => 'Unencrypted Credential'),
         'csrf'         => array('path' => '#', 'name' => 'Cross Site Request Forgery'),
